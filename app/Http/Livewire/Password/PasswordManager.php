@@ -142,8 +142,7 @@ class PasswordManager extends Component
                 'remark' => $this->remark,
                 'current_team_id'=>\Auth::user()->current_team_id,
                 'active'=>true,
-            ]);
-            
+            ]);            
             session()->flash('message', 'passwords Updated Successfully.');
             $this->resetCreateForm();
             $this->closeModalEdit();
