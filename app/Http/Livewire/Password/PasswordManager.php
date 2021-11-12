@@ -131,8 +131,7 @@ class PasswordManager extends Component
             'user' => 'required',
             'pass' => 'required',
             'type' => 'required', 
-        ]);
-            
+        ]);            
         if ($this->password_id) {
             $passwords = Password::find($this->password_id);
             $passwords->update([
