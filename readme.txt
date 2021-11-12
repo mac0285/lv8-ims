@@ -1,5 +1,4 @@
-composer require haruncpi/laravel-user-activity
- 
+composer require haruncpi/laravel-user-activity 
 php artisan user-activity:install
 //add on models
 
@@ -8,7 +7,6 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class User extends Authenticatable
 {
         use Loggable;
-
 php artisan user-activity:delete all
 
 <!-- CRUD DATA -->
