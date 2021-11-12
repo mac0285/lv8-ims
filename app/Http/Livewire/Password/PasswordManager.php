@@ -146,7 +146,6 @@ class PasswordManager extends Component
             session()->flash('message', 'passwords Updated Successfully.');
             $this->resetCreateForm();
             $this->closeModalEdit();
-
         }
     }
 
